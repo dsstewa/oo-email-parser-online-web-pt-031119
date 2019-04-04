@@ -5,7 +5,7 @@
 require 'pry'
 class EmailParser
   
-  def parse(emails)
+  def initialize(emails)
     binding.pry
   end
   
