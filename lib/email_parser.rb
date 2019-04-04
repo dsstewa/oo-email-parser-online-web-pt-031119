@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :parse
   def initialize(emails)
     emails.split(" ").collect do |email|
-      binding.pry
+      email = email.chomp(",")
     end
     
     #binding.pry
