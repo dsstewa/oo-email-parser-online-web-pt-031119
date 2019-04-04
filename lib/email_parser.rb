@@ -12,7 +12,7 @@ class EmailParser
     end
     
     
-    @parse = clean
+    @parse = clean.uniq
     #binding.pry
   end
   
