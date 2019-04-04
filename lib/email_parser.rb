@@ -11,7 +11,7 @@ class EmailParser
       clean << email.chomp(",")
     end
     clean
-    #binding.pry
+    binding.pry
   end
   
   
