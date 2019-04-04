@@ -6,9 +6,9 @@ require 'pry'
 class EmailParser
   attr_accessor :parse
   def initialize(emails)
+    @parse = emails.split(", ")
     
-    
-    binding.pry
+    #binding.pry
   end
   
   
