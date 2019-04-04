@@ -10,7 +10,7 @@ class EmailParser
     emails.split(" ").collect do |email|
       clean << email.chomp(",")
     end
-    clean
+    @parse = clean
     binding.pry
   end
   
