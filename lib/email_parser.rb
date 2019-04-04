@@ -6,10 +6,11 @@ require 'pry'
 class EmailParser
   attr_accessor :parse
   def initialize(emails)
+    clean = []
     emails.split(" ").collect do |email|
-      email = email.chomp(",")
+      clean << email.chomp(",")
     end
-    
+    clean
     #binding.pry
   end
   
