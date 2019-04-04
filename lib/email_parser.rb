@@ -8,7 +8,7 @@ class EmailParser
   def initialize(emails)
     @parse = emails.split(", ")
     
-    #binding.pry
+    binding.pry
   end
   
   
